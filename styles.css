@@ -93,9 +93,20 @@ body .content-container {
     padding: 0 10%;
 }
 
-.content-container.quote-container {
+.quote-container {
+    display: flex;
+    flex: 0 1 50%;
+    flex-direction: column;
     justify-content: center;
     gap: 10px;
+    background-color: #e5e7eb;
+}
+
+.content-container.quote-section {
+    justify-content: center;
+}
+
+.quote-section {
     background-color: #e5e7eb;
 }
 
