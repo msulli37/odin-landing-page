@@ -110,6 +110,16 @@ body .content-container {
     background-color: #e5e7eb;
 }
 
+.content-container.chip-section {
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.chip-section-container {
+    flex: 0 1 80%;
+}
+
 .content-container.signup {
     flex-direction: row;
     justify-content: space-around;
