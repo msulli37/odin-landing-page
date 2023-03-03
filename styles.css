@@ -53,6 +53,7 @@ body .content-container {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+    padding: 25px 0px;
 }
 
 .text {
@@ -116,6 +117,7 @@ body .content-container {
     flex: 1 1 auto;
     justify-content: center;
     gap: 10px;
+    padding: 0 0 50px;
 }
 
 .chip {
