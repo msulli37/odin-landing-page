@@ -30,6 +30,7 @@ body .content-container {
     background-color: #1f2937;
     gap: 10px;
     padding: 5% 10%;
+    flex-direction: row;
 }
 
 .content * {
@@ -122,8 +123,18 @@ body .content-container {
 
 .content-container.signup {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
 }
+
+.signup-section-container {
+    flex: 0 1 80%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3882f6;
+    border-radius: 15px;
+    padding: 20px 0px;
+}
+
 
 .content-container.text {
     flex-direction: column;
