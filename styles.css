@@ -55,3 +55,17 @@ body * {
     width: 100px;
     height: 100px;
 }
+
+.footer {
+    flex: 0 0 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.footer-text {
+    flex: 0 0 auto;
+    color: white;
+    font-size: 10px;
+}
