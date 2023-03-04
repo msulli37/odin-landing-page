@@ -21,16 +21,25 @@ body .content-container {
     background-color: #1f2937;
 }
 
-.header div,
-.header img {
+.title-container,
+.header-image {
     flex: 1 1 0;
 }
 
 .content-container.header {
+    display: flex;
     background-color: #1f2937;
-    gap: 10px;
-    padding: 5% 10%;
+   /*  padding: 5% 10%; */
     flex-direction: row;
+    justify-content: center;
+}
+
+.header-section-container {
+    flex: 0 1 80%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
 }
 
 .content * {
