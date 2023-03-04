@@ -9,17 +9,17 @@ a {
 }
 
 body .content-container {
-    flex: 1;
+    flex: 1 1 0;
 }
 
-.header-container {
+.content-container.header-section{
     display: flex;
-    justify-content: space-between;
-    padding: 8px 10%;
-    gap: 10px;
-    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px 10%;
     background-color: #1f2937;
 }
+
 
 .title-container,
 .header-image {
@@ -37,7 +37,7 @@ body .content-container {
 .header-section-container {
     flex: 0 1 80%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 10px;
     
 }
@@ -105,7 +105,7 @@ body .content-container {
 
 .quote-container {
     display: flex;
-    flex: 0 1 50%;
+    flex: 0 1 80%;
     flex-direction: column;
     justify-content: center;
     gap: 10px;
