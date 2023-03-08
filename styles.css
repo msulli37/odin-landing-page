@@ -41,11 +41,12 @@ button {
 
 .title-container,
 .header-image {
-    flex: 1 1 0;
+    flex: 0 1 40%;
 }
 
 .header {
     background-color: #1f2937;
+    gap: 10px;
    /*  padding: 5% 10%; */
 }
 
