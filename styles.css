@@ -23,6 +23,7 @@ button {
     flex-direction: row;
     justify-content: center;
     padding: 5% 10%;
+    flex-wrap: wrap;
 }
 
 .header-section{
@@ -42,7 +43,7 @@ button {
 
 .title-container,
 .header-image {
-    flex: 0 1 40%;
+    flex: 0 0 40%;
 }
 
 .header {
@@ -131,7 +132,9 @@ button {
 
 .signup-section-container {
     flex: 0 1 80%;
+    gap: 10px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #3882f6;
     border-radius: 15px;
@@ -144,11 +147,12 @@ button {
     align-items: start;
     gap: 5px;
     flex: 0 1 auto;
-    padding: 0;
+    padding: 0 5px 0px;
 }
 
 .chip-container {
     display: flex;
+    flex-wrap: wrap;
     flex: 1 1 auto;
     justify-content: center;
     gap: 10px;
