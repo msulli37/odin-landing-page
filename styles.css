@@ -41,9 +41,21 @@ button {
     gap: 10px;
 }
 
-.title-container,
-.header-image {
+.title-container {
     flex: 0 0 40%;
+}
+
+
+@media screen and (max-width: 650px) {
+    .title-container{
+        flex: 1 0 80%;
+        padding: 0 0 10px;
+    }
+}
+
+.header-image {
+    width: 300px;
+    height: 200px;
 }
 
 .header {
